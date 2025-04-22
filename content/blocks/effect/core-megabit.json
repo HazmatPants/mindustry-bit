@@ -1,0 +1,16 @@
+{
+    "type": "CoreBlock",
+    "health": 8192,
+    "localizedName": "Megabit",
+    "size": 4,
+    "itemCapacity": 2048,
+    "unitCapModifier": 16,
+    "unitType": "aegis",
+    "requirements": [
+        "data-cube/128",
+        "machine-code/4",
+        "fire-fabric/128"
+    ],
+    "category": "effect"
+  }
+  

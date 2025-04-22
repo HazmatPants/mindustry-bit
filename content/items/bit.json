@@ -1,0 +1,6 @@
+{
+    "type": "item",
+    "name": "Bit",
+    "color": "00ff00",
+    "description": "1 bit of data. True or False. 1 or 0. On or Off."
+}

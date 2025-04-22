@@ -1,0 +1,9 @@
+{
+    "type": "junction",
+    "localizedName": "Data Junction",
+    "health": 200,
+    "description":"Allows pipes to cross over eachother.",
+    "requirements": [
+    "bit/3"
+    ]
+}

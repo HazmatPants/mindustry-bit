@@ -1,0 +1,28 @@
+{
+    "type": "GenericCrafter",
+    "localizedName": "Corrupt Data Compressor",
+    "health": 600,
+    "size": 2,
+    "description": "Compresses 8 corrupted bits into a byte.",
+    "hasItems": true,
+    "itemCapacity": 16,
+    "craftTime": 70,
+    "hasPower": false,
+    "hasLiquids": false,
+    "updateEffect": "none",
+    "ambientSound": "corruptor",
+    "ambientSoundVolume": 0.04,
+    "requirements": [
+      "corrupted-bit/20"
+    ],
+    "consumes": {
+      "items": [
+        "corrupted-bit/8"
+      ]
+    },
+    "envRequired": 0,
+    "category": "crafting",
+    "outputItems": [
+      "corrupted-byte/1"
+    ]
+  }

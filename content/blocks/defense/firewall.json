@@ -1,0 +1,21 @@
+{
+    "type": "ForceProjector",
+    "localizedName": "Firewall",
+    "description": "Defends against viruses. Produces a small shield.",
+    "health": 3072,
+    "shieldHealth": 1024,
+    "size": 2,
+    "hasPower": false,
+    "hasItems": false,
+    "hasLiquids": false,
+    "canOverdrive": false,
+    "solid": true,
+    "radius": 30,
+    "cooldownNormal": 1.5,
+    "requirements": [
+        "byte/16",
+        "fire-fabric/1"
+    ],
+    "category": "defense"
+  }
+  

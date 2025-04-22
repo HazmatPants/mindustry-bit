@@ -1,0 +1,17 @@
+{
+    "type": "PowerSource",
+    "localizedName": "ShellNet",
+    "description": "Some machines require connection to a ShellNet (power).",
+
+    "health": 128,
+    "size": 1,
+    "category": "power",
+    
+    "laserRange": 12,
+    "maxNodes": 8,
+  
+    "requirements": [
+      "memory-fabric/16",
+      "block/8"
+    ]
+  }

@@ -1,0 +1,29 @@
+{
+    "type": "GenericCrafter",
+    "localizedName": "Block Compiler",
+    "health": 300,
+    "size": 2,
+    "description": "Compiles Bits into Blocks.",
+    "hasItems": true,
+    "itemCapacity": 1024,
+    "craftTime": 60,
+    "hasPower": false,
+    "hasLiquids": false,
+    "updateEffect": "none",
+    "ambientSound": "machine",
+    "ambientSoundVolume": 0.1,
+    "requirements": [
+      "data-cube/1",
+      "byte/8"
+    ],
+    "consumes": {
+      "items": [
+        "bit/4"
+      ]
+    },
+    "envRequired": 0,
+    "category": "crafting",
+    "outputItems": [
+      "block/1"
+    ]
+  }

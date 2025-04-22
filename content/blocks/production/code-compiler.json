@@ -1,0 +1,41 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Code Compiler",
+  "health": 300,
+  "size": 3,
+  "description": "Compiles lots of data into Machine Code.",
+  "hasItems": true,
+  "itemCapacity": 1024,
+  "craftTime": 300,
+  "hasPower": false,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "ambientSound": "minebeam",
+  "ambientSoundVolume": 0.1,
+  "requirements": [
+    "data-cube/8",
+    "byte/8"
+  ],
+  "consumes": {
+    "items": [
+      "byte/128"
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "00000000"
+      }
+    ]
+  },
+  "envRequired": 0,
+  "category": "crafting",
+  "outputItems": [
+    "machine-code/1"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Data Corruptor",
+  "health": 300,
+  "size": 2,
+  "description": "Corrupts data. Corrupted data is unstable but may have potential applications.",
+  "hasItems": true,
+  "itemCapacity": 64,
+  "craftTime": 120,
+  "hasPower": false,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "ambientSound": "corruptor",
+  "ambientSoundVolume": 0.08,
+  "requirements": [
+    "data-cube/4",
+    "byte/8"
+  ],
+  "consumes": {
+    "items": [
+      "data-cube/1"
+    ]
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "envRequired": 0,
+  "category": "crafting",
+  "outputItems": [
+    "corrupted-bit/8"
+  ]
+}

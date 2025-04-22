@@ -1,0 +1,48 @@
+{
+    "name": "MONEY!!!!!!",
+    "singleTarget": false,
+    "lightRadius": 250,
+    "fallSpeed": 0.02,
+    "rotateSpeed": 90,
+    "crashDamageMultiplier": 800,
+    "speed": 5,
+    "accel": 0.05,
+    "drag": 0.02,
+    "range": 200,
+    "maxRange": 200,
+    "aimDst": 430,
+    "faceTarget": false,
+    "flying": true,
+    "health": 14000000,
+    "hitSize": 28,
+    "armor": 64,
+    "engineOffset": 16,
+    "engineSize": 8,
+    "lowAltitude": false,
+    "targetAir": true,
+    "commandLimit": 8,
+    "outlineColor": "AAAA00",
+    "weapons": [
+        {
+          "top": false,
+          "mirror": true,
+          "alternate": true,
+          "x": 6,
+          "y": 12,
+          "rotate": true,
+          "rotateSpeed": 90,
+          "template": "MissileUnitType",
+          "controller": "MissileAI",
+          "inaccuracy": 6,
+          "shootY": 8,
+          "reload": 0,
+          "recoil": 2,
+          "shake": 5,
+          "shootEffect": "shootBigSmoke",
+          "shootSound": "chaching",
+          "bullet": {
+              "spawnUnit": "bit-missile"
+            }
+        }
+    ]
+}

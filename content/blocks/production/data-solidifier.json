@@ -1,0 +1,31 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Data Solidifier",
+  "health": 300,
+  "size": 2,
+  "description": "Solidifies data into data cubes.",
+  "hasItems": true,
+  "itemCapacity": 32,
+  "craftTime": 140,
+  "hasPower": false,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "ambientSound": "respawning",
+  "ambientSoundVolume": 0.08,
+  "requirements": [
+    "byte/8"
+  ],
+  "consumes": {
+    "items": [
+      "byte/8"
+    ]
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "envRequired": 0,
+  "category": "crafting",
+  "outputItems": [
+    "data-cube/1"
+  ]
+}

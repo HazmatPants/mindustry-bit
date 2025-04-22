@@ -1,0 +1,10 @@
+{
+    "type": "conveyor",
+    "localizedName": "Flame Pipe",
+    "health": 220,
+    "description":"Uses Flame Fabric to move items faster than regular pipes.",
+    "speed": 0.14,
+    "requirements": [
+        "fire-fabric/1"
+    ]
+}

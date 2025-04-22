@@ -1,0 +1,28 @@
+{
+    "type": "ForceProjector",
+    "localizedName": "Enhanced Firewall",
+    "description": "Uses the decay of a corrupted data cube to generate a large shield. Byteflux prevents overheating.",
+    "health": 4096,
+    "shieldHealth": 2048,
+    "itemCapacity": 1,
+    "size": 4,
+    "phaseUseTime": 60,
+    "hasPower": false,
+    "hasItems": true,
+    "hasLiquids": true,
+    "canOverdrive": false,
+    "solid": true,
+    "radius": 200,
+    "cooldownNormal": 3,
+    "requirements": [
+        "data-cube/8",
+        "fire-fabric/32"
+    ],
+    "consumes": {
+      "items": [
+        "corrupted-cube/1"
+      ]
+    },
+    "category": "defense"
+  }
+  

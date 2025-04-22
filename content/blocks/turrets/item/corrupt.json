@@ -1,0 +1,48 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Corrupt",
+  "description": "Fires a large corruption laser.",
+  "size": 2,
+  "health": 900,
+  "reload": 90,
+  "range": 180,
+  "inaccuracy": 0,
+  "shoot": {
+    "type": "ShootAlternate",
+    "spread": 1,
+    "shots": 1
+  },
+  "recoil": 1,
+  "rotateSpeed": 16,
+  "shootSound": "laser",
+  "ammoTypes": {
+    "corrupted-bit": {
+        "type": "LaserBulletType",
+        "length": 130,
+        "width": 20,
+        "damage": 145,
+        "lightColor": "A9D8FFFF",
+        "lightningColor": "66B1FFFF",
+        "buildingDamageMultiplier": 0.4,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 15,
+          "lifetime": 20,
+          "offset": 50,
+          "length": 55,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "A9D8FFFF",
+          "colorTo": "66B1FFFF"
+        }
+      }
+    },
+      "requirements": [
+	  "fire-fabric/8",
+    "corrupted-cube/1",
+    "byte/32"
+  ],
+  "category": "turret"
+}

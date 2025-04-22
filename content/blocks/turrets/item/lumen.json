@@ -1,0 +1,49 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Lumen",
+  "size": 5,
+  "health": 2400,
+  "maxAmmo": 150,
+  "ammoPerShot": 10,
+  "reload": 360,
+  "range": 760,
+  "coolantUsage": 1.2,
+  "ammoUseEffect": "casing3Double",
+  "coolantMultiplier": 0.5,
+  "targetAir": true,
+  "targetGround": true,
+  "recoilAmount": 6,
+  "shootShake": 6,
+  "inaccuracy": 0,
+  "restitution": 0.009,
+  "cooldown": 0.009,
+  "rotateSpeed": 1,
+  "shootSound": "artil2",
+  "ammoTypes": {
+    "block": {
+      "type": "pointBulletType",
+      "damage": 1600,
+      "shootEffect": "instShoot",
+      "lightning": 8,
+      "lightningLength": 17,
+      "lightningDamage": 55,
+      "ammoMultiplier": 3,
+      "speed": 600,
+      "hitShake": 7,
+      "trailSpacing": 20,
+      "collidesTiles": true,
+      "smokeEffect": "smokeCloud",
+      "buildingDamageMultiplier": 0.50,
+      "trailEffect": "instTrail",
+      "despawnEffect": "instBomb",
+      "hitEffect": "instHit"
+    }
+  },
+  "requirements": [
+    "byte/1024",
+    "memory-fabric/512",
+    "data-cube/64",
+    "plamyanite/16"
+  ],
+  "category": "turret"
+}

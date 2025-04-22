@@ -1,0 +1,15 @@
+{
+    "type": "CoreBlock",
+    "health": 2048,
+    "localizedName": "Kilobit",
+    "size": 3,
+    "itemCapacity": 1024,
+    "unitCapModifier": 16,
+    "unitType": "guard",
+    "requirements": [
+        "data-cube/64",
+        "machine-code/1"
+    ],
+    "category": "effect"
+  }
+  

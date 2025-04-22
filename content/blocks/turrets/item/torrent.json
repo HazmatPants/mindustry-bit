@@ -1,0 +1,49 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Torrent",
+  "description": "Rapid fire bit turret.",
+  "size": 2,
+  "health": 450,
+  "reload": 8,
+  "range": 200,
+  "inaccuracy": 0.3,
+  "shoot": {
+    "type": "ShootAlternate",
+    "spread": 1,
+    "shots": 1
+  },
+  "shootEffect": {
+    "type": "casing1",
+    "casingFlip": true
+  },
+  "recoil": 1,
+  "rotateSpeed": 5,
+  "shootSound": "bolt",
+  "ammoTypes": {
+      "bit": {
+        "type": "basicBulletType",
+        "sprite" : "missile-large",
+        "shootEffect": "shootBig2",
+        "hitEffect": "hitBulletSmall",
+        "pierceArmor": true,
+        "collidesTile": false,
+        "despawnHit": true,
+        "lifetime": 80,
+        "damage": 20,
+        "speed": 6.6,
+        "trailLength": 8,
+        "trailWidth": 1.5,
+        "width": 4,
+        "height": 9,
+        "trailColor": "ff7048",
+        "backColor": "ff7048",
+        "frontColor": "ffcea0"
+      }
+    },
+      "requirements": [
+	  "machine-code/1",
+    "fire-fabric/16",
+    "data-cube/2"
+  ],
+  "category": "turret"
+}

@@ -1,0 +1,33 @@
+{
+    "type": "UnitFactory",
+    "size": 5,
+    "localizedName": "Tier 3 Factory",
+    "description": "Constructs Tier 3 units.",
+    "plans": [
+      {
+        "unit": "annyexta",
+        "requirements": [
+          "data-cube/32",
+          "fire-fabric/16",
+          "machine-code/1"
+        ],
+        "time": 900
+      },
+      {
+        "unit": "dzirno",
+        "requirements": [
+          "block/128",
+          "memory-fabric/64",
+          "machine-code/2"
+        ],
+        "time": 1000
+      },
+    ],
+    "requirements": [
+        "data-cube/32",
+        "memory-fabric/64",
+        "machine-code/3"
+    ],
+    "category": "units"
+  }
+  

@@ -1,0 +1,9 @@
+{
+    "type": "router",
+    "localizedName": "Data Router",
+    "health": 260,
+    "description":"Equally distributes input to output rails.",
+    "requirements": [
+        "bit/4"
+    ]
+}

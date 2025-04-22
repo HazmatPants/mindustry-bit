@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "localizedName": "Compressed Wall",
+    "description": "Even bigger wall.",
+    "health": 4096,
+    "size": 2,
+    "requirements": [
+        "data-cube/1"
+    ],
+    "category": "defense"
+  }
+  

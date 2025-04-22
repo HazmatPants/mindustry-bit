@@ -1,0 +1,42 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Defender",
+  "description": "Basic turret using bits for ammunition.",
+  "size": 1,
+  "health": 300,
+  "reload": 10,
+  "range": 200,
+  "inaccuracy": 0.3,
+  "shoot": {
+    "type": "ShootAlternate",
+    "spread": 1,
+    "shots": 1
+  },
+  "shootEffect": {
+    "type": "casing1",
+    "casingFlip": true
+  },
+  "recoil": 1,
+  "rotateSpeed": 16,
+  "shootSound": "pew",
+  "ammoTypes": {
+    "bit": {
+      "bulletSprite": "missile",
+      "type": "LaserBoltBulletType",
+      "shrinkY": 0.1,
+      "shrinkX": 0.1,
+      "speed": 15,
+      "lifetime": 20,
+      "damage": 9,
+      "height": 5,
+      "width": 2,
+      "ammoMultiplier": 2,
+      "frontColor": "FFFFFFF",
+      "backColor": "AA0010"
+    }
+    },
+      "requirements": [
+	  "bit/60"
+  ],
+  "category": "turret"
+}

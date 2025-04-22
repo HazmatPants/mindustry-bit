@@ -1,0 +1,22 @@
+{
+    "type": "MendProjector",
+    "health": 800,
+    "localizedName": "Encryptor",
+    "description": "Repairs structures overtime by replacing damaged data with healthy data.",
+    "size": 1,
+    "hasPower": false,
+    "baseColor": "ffffff",
+    "phaseColor": "ffffff",
+    "healPercent": 5,
+    "range": 60,
+    "liquidCapacity": 8,
+    "useTime": 400,
+    "ambientSound": "machine",
+    "ambientSoundVolume": 0.05,
+    "requirements": [
+      "bit/64",
+      "memory-fabric/8"
+    ],
+    "category": "effect"
+  }
+  

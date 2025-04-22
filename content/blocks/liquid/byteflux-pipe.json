@@ -1,0 +1,14 @@
+{
+  "type": "Conduit",
+  "localizedName": "Byteflux Pipe",
+  "description": "Transports liquids.",
+  "health": 300,
+  "leaks": false,
+  "liquidPressure": 4,
+  "liquidCapacity": 10,
+  "requirements": [
+    "bit/1"
+  ],
+  "category": "liquid"
+}
+  

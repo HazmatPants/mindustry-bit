@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Tupleforge",
+  "health": 300,
+  "size": 3,
+  "description": "Forges Memory Fabric, Flame Fabric, and Heat Crystals into Plamyanite; an extremely strong alloy.",
+  "hasItems": true,
+  "itemCapacity": 8,
+  "craftTime": 240,
+  "hasPower": false,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "ambientSound": "techloop",
+  "ambientSoundVolume": 0.08,
+  "requirements": [
+    "byte/16",
+    "block/8"
+  ],
+  "consumes": {
+    "items": [
+      "memory-fabric/4",
+      "fire-fabric/4",
+      "heat-crystal/1"
+    ]
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "envRequired": 0,
+  "category": "crafting",
+  "outputItems": [
+    "plamyanite/2"
+  ]
+}

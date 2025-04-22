@@ -1,0 +1,56 @@
+{
+  "name": "aegis",
+  "localizedName": "Aegis",
+  "flying": true,
+  "type": "flying",
+  "health": 300,
+  "speed": 2,
+  "accel": 0.05,
+  "drag": 0.02,
+  "range": 80,
+  "buildSpeed": 1.25,
+  "mineTier": 3,
+  "faceTarget": false,
+  "outlineColor": "00000000"
+  "weapons": [
+    {
+      "name": "aegis-gun",
+      "shootCone": 15,
+      "mirror": true,
+      "alternate": false,
+      "top": false, 
+      "outlineLayerOffset": 0.001,
+      "layerOffset": -0.001,
+      "cooldownTime": 50,
+      "x": 4.5,
+      "y": 1.5,
+      "shootX": -0.5,
+      "rotate": true,
+      "inaccuracy": 9,
+      "shootY": 8,
+      "reload": 3,
+      "recoil": 1.5,
+      "shootSound": "bolt",
+      "bullet": {
+        "type": "basicBulletType",
+        "sprite" : "missile-large",
+        "shootEffect": "shootBig2",
+        "hitEffect": "hitBulletSmall",
+        "pierceArmor": true,
+        "buildingDamageMultiplier": -1,
+        "collidesTile": false,
+        "despawnHit": true,
+        "lifetime": 15,
+        "damage": 19,
+        "speed": 6.6,
+        "trailLength": 8,
+        "trailWidth": 1.5,
+        "width": 4,
+        "height": 9,
+        "trailColor": "ff7048",
+        "backColor": "ff7048",
+        "frontColor": "ffcea0"
+      }
+    }
+  ]
+}

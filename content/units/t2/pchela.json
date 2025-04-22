@@ -1,0 +1,42 @@
+{
+  "name": "pchela",
+  "localizedName": "Pchela",
+  "description": "A large flying unit that fires dual laser cannons.",
+  "type": "flying",
+  "flying": true,
+  "health": 1600,
+  "speed": 2,
+  "range": 240,
+  "accel": 0.14,
+  "drag": 0.1,
+  "faceTarget": true,
+  "outlineColor": "00000000"
+  "weapons": [
+    {
+      "name": "pchela-gun",
+      "shootCone": 15,
+      "mirror": true,
+      "alternate": true,
+      "top": false, 
+      "outlineLayerOffset": 0.001,
+      "layerOffset": -0.001,
+      "cooldownTime": 50,
+      "x": 4.5,
+      "y": 1.5,
+      "shootX": -0.3,
+      "rotate": true,
+      "inaccuracy": 6,
+      "shootY": 8,
+      "reload": 60,
+      "recoil": 1.5,
+      "shootSound": "laser2",
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 240,
+        "damage": 60,
+        "buildingDamageMultiplier": 0.85,
+        "chargeEffect": "lightningCharge"
+      }
+    }
+  ]
+}

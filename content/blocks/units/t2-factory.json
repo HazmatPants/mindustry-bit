@@ -1,0 +1,40 @@
+{
+    "type": "UnitFactory",
+    "size": 4,
+    "localizedName": "Tier 2 Factory",
+    "description": "Constructs Tier 2 units.",
+    "plans": [
+      {
+        "unit": "svestra",
+        "requirements": [
+          "block/64",
+          "machine-code/1"
+        ],
+        "time": 600
+      },
+      {
+        "unit": "pchela",
+        "requirements": [
+          "block/48",
+          "memory-fabric/8",
+          "machine-code/1"
+        ],
+        "time": 600
+      },
+      {
+        "unit": "xt",
+        "requirements": [
+          "block/64",
+          "fire-fabric/8",
+          "machine-code/1"
+        ],
+        "time": 600
+      }
+    ],
+    "requirements": [
+        "data-cube/16",
+        "machine-code/2"
+    ],
+    "category": "units"
+  }
+  

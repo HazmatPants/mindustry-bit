@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Memory Weaver",
+  "health": 300,
+  "size": 3,
+  "description": "Weaves Memory Blocks into Memory Fabric.",
+  "hasItems": true,
+  "itemCapacity": 8,
+  "craftTime": 240,
+  "hasPower": false,
+  "hasLiquids": false,
+  "updateEffect": "none",
+  "ambientSound": "techloop",
+  "ambientSoundVolume": 0.08,
+  "requirements": [
+    "byte/16",
+    "block/8"
+  ],
+  "consumes": {
+    "items": [
+      "block/4"
+    ]
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "envRequired": 0,
+  "category": "crafting",
+  "outputItems": [
+    "memory-fabric/2"
+  ]
+}

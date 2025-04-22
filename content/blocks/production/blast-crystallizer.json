@@ -1,0 +1,29 @@
+{
+    "type": "GenericCrafter",
+    "localizedName": "Blast Crystallizer",
+    "health": 300,
+    "size": 2,
+    "description": "Blasts unstable corrupted data and regular in a violent reaction to create heat crystals.",
+    "hasItems": true,
+    "itemCapacity": 16,
+    "craftTime": 140,
+    "hasPower": false,
+    "hasLiquids": false,
+    "updateEffect": "none",
+    "ambientSound": "machine",
+    "ambientSoundVolume": 0.12,
+    "requirements": [
+      "byte/16"
+    ],
+    "consumes": {
+      "items": [
+        "corrupted-bit/4",
+        "bit/4"
+      ]
+    },
+    "envRequired": 0,
+    "category": "crafting",
+    "outputItems": [
+      "heat-crystal/1"
+    ]
+  }

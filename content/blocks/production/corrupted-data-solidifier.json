@@ -1,0 +1,36 @@
+{
+    "type": "GenericCrafter",
+    "localizedName": "Corrupt Data Solidifier",
+    "health": 300,
+    "size": 2,
+    "description": "Solidifies corrupted bytes into data cubes.",
+    "hasItems": true,
+    "itemCapacity": 16,
+    "craftTime": 140,
+    "hasPower": false,
+    "hasLiquids": false,
+    "updateEffect": "none",
+    "ambientSound": "corruptor",
+    "ambientSoundVolume": 0.08,
+    "requirements": [
+      "corrupted-byte/8"
+    ],
+    "consumes": {
+      "items": [
+        "corrupted-byte/16"
+      ]
+    },
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawDefault"
+          }
+        ]
+      },
+    "envRequired": 0,
+    "category": "crafting",
+    "outputItems": [
+      "corrupted-cube/1"
+    ]
+  }

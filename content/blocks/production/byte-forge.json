@@ -1,0 +1,37 @@
+{
+    "type": "GenericCrafter",
+    "localizedName": "Byte Forge",
+    "health": 300,
+    "size": 3,
+    "description": "An upgraded data compressor, uses the heat from heat crystals to melt data together.",
+    "hasItems": true,
+    "itemCapacity": 128,
+    "craftTime": 60,
+    "hasPower": false,
+    "hasLiquids": false,
+    "updateEffect": "none",
+    "ambientSound": "smelter",
+    "ambientSoundVolume": 0.15,
+    "requirements": [
+      "fire-fabric/8",
+      "data-cube/4"
+    ],
+    "consumes": {
+      "items": [
+        "bit/32"
+      ]
+    },
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawDefault"
+        }
+      ]
+    },
+    "envRequired": 0,
+    "category": "crafting",
+    "outputItems": [
+      "byte/8"
+    ]
+  }

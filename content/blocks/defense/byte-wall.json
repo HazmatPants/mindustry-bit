@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "localizedName": "Byte Wall",
+    "description": "Slightly bigger wall.",
+    "health": 2048,
+    "size": 2,
+    "requirements": [
+        "byte/4"
+    ],
+    "category": "defense"
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "type": "CoreBlock",
+    "health": 64,
+    "localizedName": "Depot Point",
+    "description": "A place to depot items, acts as a core. Has very low health.",
+    "size": 1,
+    "itemCapacity": 2048,
+    "unitCapModifier": 1,
+    "unitType": "guard",
+    "requirements": [
+        "data-cube/4",
+        "machine-code/1",
+        "memory-fabric/32"
+    ],
+    "category": "effect"
+  }
+  

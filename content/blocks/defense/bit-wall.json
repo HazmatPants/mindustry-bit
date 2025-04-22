@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "localizedName": "Bit Wall",
+    "description": "Small wall.",
+    "health": 512,
+    "size": 1,
+    "requirements": [
+        "bit/8"
+    ],
+    "category": "defense"
+  }
+  

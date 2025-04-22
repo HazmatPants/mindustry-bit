@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Data Liquefactor",
+  "health": 300,
+  "size": 2,
+  "description": "Liquefies data into byteflux.",
+  "hasItems": true,
+  "itemCapacity": 64,
+  "craftTime": 30,
+  "hasPower": false,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  "ambientSound": "combustion",
+  "ambientSoundVolume": 0.13,
+  "requirements": [
+    "data-cube/1",
+    "byte/8"
+  ],
+  "consumes": {
+    "items": [
+      "bit/4"
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "envRequired": 0,
+  "category": "liquid",
+  "outputLiquids": [
+    "byteflux/0.5"
+  ]
+}

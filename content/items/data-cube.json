@@ -1,0 +1,6 @@
+{
+    "type": "item",
+    "name": "Data Cube",
+    "color": "00ff00",
+    "description": "A compressed cube of 16 bytes."
+}

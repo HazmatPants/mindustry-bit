@@ -1,0 +1,24 @@
+{
+    "type": "GenericCrafter",
+    "localizedName": "Corrupt Dataminer",
+    "health": 300,
+    "size": 2,
+    "description": "Very slowly mines corrupted bits.",
+    "hasItems": true,
+    "craftTime": 350,
+    "hasPower": false,
+    "hasLiquids": false,
+    "updateEffect": "none",
+    "ambientSound": "corruptor",
+    "ambientSoundVolume": 0.03,
+    "requirements": [
+      "machine-code/1",
+      "fire-fabric/8",
+      "corrupted-byte/8"
+    ],
+    "envRequired": 0,
+    "category": "production",
+    "outputItems": [
+      "corrupted-bit/1"
+    ]
+  }

@@ -1,0 +1,44 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Induct",
+  "description": "Fires large artillery.",
+  "size": 3,
+  "health": 900,
+  "reload": 120,
+  "range": 240,
+  "inaccuracy": 0,
+  "recoil": 1,
+  "rotateSpeed": 8,
+  "shootSound": "malignShoot",
+  "ammoTypes": {
+    "byte": {
+        "type": "ArtilleryBulletType",
+        "lifetime": 120,
+        "speed": 2,
+        "damage": 160,
+        "buildingDamageMultiplier": 0.60,
+        "frontColor": "FF00FF",
+        "backColor": "FFAA00",
+        "splashDamageRadius": 40,
+        "splashDamage": 120,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 15,
+          "lifetime": 20,
+          "offset": 50,
+          "length": 55,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "A9D800",
+          "colorTo": "66B100"
+        }
+      }
+    },
+      "requirements": [
+	  "fire-fabric/8",
+    "byte/48"
+  ],
+  "category": "turret"
+}

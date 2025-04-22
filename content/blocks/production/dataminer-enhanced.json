@@ -1,0 +1,37 @@
+{
+    "type": "GenericCrafter",
+    "localizedName": "Enhanced Dataminer",
+    "health": 300,
+    "size": 2,
+    "description": "Mines bits faster than the regular miner.",
+    "hasItems": true,
+    "craftTime": 15,
+    "hasPower": false,
+    "hasLiquids": false,
+    "updateEffect": "none",
+    "ambientSound": "combustion",
+    "ambientSoundVolume": 0.08,
+    "requirements": [
+      "bit/20"
+    ],
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawRegion",
+                "spinSprite": true,
+                "suffix": "-spinner",
+                "rotateSpeed": 10,
+                "x": -5
+            }
+        ]
+    },
+    "envRequired": 0,
+    "category": "production",
+    "outputItems": [
+      "bit/1"
+    ]
+  }

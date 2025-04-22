@@ -1,0 +1,39 @@
+{
+    "type": "UnitFactory",
+    "size": 3,
+    "localizedName": "Tier 1 Factory",
+    "description": "Constructs Tier 1 units. All units require Machine Code.",
+    "plans": [
+      {
+        "unit": "sveta",
+        "requirements": [
+          "block/15",
+          "machine-code/1"
+        ],
+        "time": 600
+      },
+      {
+        "unit": "qt",
+        "requirements": [
+          "block/30",
+          "machine-code/1"
+        ],
+        "time": 600
+      },
+      {
+        "unit": "diriz",
+        "requirements": [
+          "block/20",
+          "machine-code/1"
+        ],
+        "time": 600
+      }
+    ],
+    "requirements": [
+      "block/16",
+      "data-cube/8",
+      "machine-code/2"
+    ],
+    "category": "units"
+  }
+  

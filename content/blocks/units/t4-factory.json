@@ -1,0 +1,24 @@
+{
+    "type": "UnitFactory",
+    "size": 6,
+    "localizedName": "Tier 4 Factory",
+    "description": "Constructs Tier 4 units.",
+    "plans": [
+      {
+        "unit": "dreax",
+        "requirements": [
+          "block/160",
+          "memory-fabric/96",
+          "fire-fabric/32",
+          "machine-code/3"
+        ],
+        "time": 900
+      }
+    ],
+    "requirements": [
+        "data-cube/48",
+        "machine-code/4"
+    ],
+    "category": "units"
+  }
+  

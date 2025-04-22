@@ -1,0 +1,32 @@
+{
+    "name": "Svestra",
+    "description": "An upgraded Sveta, explodes more violently.",
+    "type": "mech",
+    "health": 1024,
+    "flying": false,
+    "speed": 2,
+    "range": 8,
+    "maxRange": 8,
+    "outlineColor": "00000000"
+    "weapons": [
+        {
+            "shake": 2,
+            "shootCone": 180,
+            "shootSound": "explosion",
+            "bullet": {
+                "name": "sveta-exploder",
+                "type": "BasicBulletType",
+                "lifetime": 1000,
+                "speed": 2,
+                "splashDamageRadius": 128,
+                "splashDamage": 480,
+                "frontColor": "ffff00",
+                "backColor": "00ffff",
+                "killShooter": true,
+                "instantDisappear": true,
+                "despawnEffect": "explosion",
+                "despawnHit": true
+            }
+        }
+    ]
+}

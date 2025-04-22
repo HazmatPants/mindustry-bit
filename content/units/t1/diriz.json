@@ -1,0 +1,47 @@
+{
+  "name": "diriz",
+  "localizedName": "Diriz",
+  "type": "flying",
+  "flying": true,
+  "health": 450,
+  "speed": 1,
+  "range": 120,
+  "accel": 0.15,
+  "drag": 0.05,
+  "faceTarget": false,
+  "outlineColor": "00000000"
+  "weapons": [
+    {
+      "name": "diriz-gun",
+      "shootCone": 15,
+      "mirror": true,
+      "alternate": false,
+      "top": false, 
+      "outlineLayerOffset": 0.001,
+      "layerOffset": -0.001,
+      "cooldownTime": 50,
+      "x": 4.5,
+      "y": 1.5,
+      "shootX": -0.3,
+      "rotate": true,
+      "inaccuracy": 6,
+      "shootY": 8,
+      "reload": 6,
+      "recoil": 1.5,
+      "shootSound": "blaster",
+      "bullet": {
+        "bulletSprite": "missile-large",
+        "type": "LaserBoltBulletType",
+        "shrinkY": 0.1,
+        "shrinkX": 0.1,
+        "speed": 6,
+        "lifetime": 20,
+        "damage": 16,
+        "height": 5,
+        "width": 2,
+        "frontColor": "FFFFFFF",
+        "backColor": "0000AA"
+      }
+    }
+  ]
+}

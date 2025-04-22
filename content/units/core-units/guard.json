@@ -1,0 +1,26 @@
+{
+  "name": "guard",
+  "localizedName": "Guard",
+  "flying": true,
+  "type": "flying",
+  "health": 150,
+  "speed": 1.5,
+  "accel": 0.05,
+  "drag": 0.02,
+  "range": 160,
+  "buildSpeed": 0.5,
+  "mineTier": 2,
+  "outlineColor": "00000000"
+  "weapons": [
+    {
+      "name": "guard-gun",
+      "shootSound": "shoot",
+      "reload": 8,
+      "bullet": {
+        "damage": 8,
+        "speed": 6,
+        "lifetime": 40
+      }
+    }
+  ]
+}

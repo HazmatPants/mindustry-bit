@@ -1,0 +1,10 @@
+{
+    "type": "conveyor",
+    "localizedName": "Data Pipe",
+    "health": 185,
+    "description":"Used to move items/data around.",
+    "speed": 0.07,
+    "requirements": [
+        "bit/1"
+    ]
+}
