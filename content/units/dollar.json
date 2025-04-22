@@ -1,0 +1,51 @@
+{
+    "name": "MONEY MISSILE",
+    "type": "missile",
+    "template": "missileUnitType",
+    "armor": 32,
+    "speed": 5,
+    "hitSize": 3,
+    "flying": true,
+    "health": 1024,
+    "drag": 0.07,
+    "missileAccelTime": 2,
+    "homingDelay": 1,
+    "hidden": true,
+    "lifetime": 300,
+    "outlineColor": "00000000",
+    "playerControllable": false,
+    "allowedInPayloads": false,
+    "isEnemy": false,
+    "pickupUnits": false,
+    "useUnitCap": false,
+    "createWreck": false,
+    "createScorch": false,
+
+    "controller": "missileAI",
+
+    "weapons":
+    [
+      {
+          "name": null,
+          "mirror": false,
+          "top": false,
+          "alternate": false,
+          "x": 0,
+          "y": 0,
+          "reload": 0,
+        "shootOnDeath": true,
+        "ignoreRotation": true,
+        "cooldownTime": 0,
+        "rotateSpeed": 90,
+        "rotate": true,
+          "bullet": 
+          {
+            "type": "explosionBulletType",
+            "damage": 360,
+            "splashDamage": 512,
+            "splashDamageRadius": 64
+          }
+        }
+      ]
+
+}

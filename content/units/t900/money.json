@@ -41,7 +41,7 @@
           "shootEffect": "shootBigSmoke",
           "shootSound": "chaching",
           "bullet": {
-              "spawnUnit": "bit-missile"
+              "spawnUnit": "bit-dollar"
             }
         }
     ]
