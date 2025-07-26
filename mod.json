@@ -5,6 +5,6 @@
 	"description": "I Lost My Data!",
 	"version": 1.0,
 	"minGameVersion": 146,
-	"dependencies": [],
+	"dependencies": ["multi-crafter"],
 	"hidden": false
 }

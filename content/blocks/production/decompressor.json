@@ -1,0 +1,36 @@
+{
+    "name": "decompressor",
+    "localizedName": "Decompressor"
+    "description": "Decompresses large formats to smaller formats, like 1 byte to 8 bits.",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "requirements": [
+      "bit-bit/10"
+    ],
+    "size": 3,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 32,
+    "recipes": [
+        {
+        "input": {
+            "items": ["bit-byte/1"]
+            },
+        "output":{
+            "items": ["bit-bit/8"]
+            },
+        "craftTime": 60
+        },
+        {
+        "input": {
+            "items": ["bit-data-cube/1"]
+            },
+        "output":{
+            "items": ["bit-byte/8"]
+            },
+        "craftTime": 60
+    },
+]
+}

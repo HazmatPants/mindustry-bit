@@ -21,9 +21,18 @@
       "block/4"
     ]
   },
-  "drawer": {
-    "type": "DrawDefault"
-  },
+    "drawer": {
+        "type": "DrawMulti"
+        "drawers": [
+            {
+              "type": "DrawRegion"
+              "suffix": "-top"
+            },
+            {
+              "type": "DrawDefault"
+            }
+        ]
+    }
   "envRequired": 0,
   "category": "crafting",
   "outputItems": [
