@@ -1,6 +1,5 @@
 {
     "name": "Dreax",
-    "singleTarget": true,
     "lightRadius": 250,
     "fallSpeed": 0.02,
     "rotateSpeed": 2,
@@ -13,7 +12,7 @@
     "aimDst": 430,
     "faceTarget": false,
     "flying": true,
-    "health": 12048,
+    "health": 25600,
     "hitSize": 28,
     "armor": 16,
     "engineOffset": 32,

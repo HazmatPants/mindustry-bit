@@ -1,5 +1,5 @@
 {
-    "name": "MONEY MISSILE",
+    "localizedName": "MONEY MISSILE",
     "type": "missile",
     "template": "missileUnitType",
     "armor": 32,
