@@ -1,0 +1,46 @@
+{
+    "localizedName": "Task Manager",
+    "singleTarget": true,
+    "type": "legs",
+    "flying": false,
+    "health": 51200,
+    "speed": 0.6,
+    "range": 600,
+    "armor": 200,
+    "rotateSpeed": 2,
+    "faceTarget": true,
+    "outlineColor": "00000000",
+    "legBaseOffset": 20,
+    "stepShake": 3,
+    "legCount": 4,
+    "legLength": 15,
+    "legSpeed": 0.5,
+    "legMoveSpace": 2,
+    "weapons": 
+    [
+        {
+            "cooldownTime": 120,
+            "shootCone": 3,
+            "mirror": false,
+            "rotate": false,
+            "inaccuracy": 0,
+            "reload": 240,
+            "recoil": 10,
+            "shootSound": "artil2",
+            "bullet": 
+            {
+                "type": "LaserBulletType",
+                "shootEffect": "shootBig2",
+                "hitEffect": "flakExplosion",
+                "pierceArmor": true,
+                "collidesTile": false,
+                "damage": 2147483647463847412,
+                "shake": 5,
+                "trailLength": 8,
+                "trailWidth": 6,
+                "width": 100,
+                "length": 600
+            }
+        }
+    ]
+}
