@@ -3,7 +3,7 @@
     "localizedName": "Blast Crystallizer",
     "health": 300,
     "size": 2,
-    "description": "Blasts unstable corrupted data and regular in a violent reaction to create heat crystals.",
+    "description": "Blasts corrupted and regular data in a violent reaction to create heat crystals.",
     "hasItems": true,
     "itemCapacity": 16,
     "craftTime": 140,

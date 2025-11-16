@@ -3,7 +3,7 @@
   "localizedName": "Data Corruptor",
   "health": 300,
   "size": 2,
-  "description": "Corrupts data. Corrupted data is unstable but may have potential applications.",
+  "description": "Corrupts data. Corrupted data is unstable and may have potential applications.",
   "hasItems": true,
   "itemCapacity": 64,
   "craftTime": 120,

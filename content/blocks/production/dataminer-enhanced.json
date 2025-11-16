@@ -3,7 +3,7 @@
     "localizedName": "Enhanced Dataminer",
     "health": 450,
     "size": 2,
-    "description": "Mines bits faster than the regular miner.",
+    "description": "Mines bits faster than a regular dataminer.",
     "hasItems": true,
     "craftTime": 15,
     "hasPower": false,

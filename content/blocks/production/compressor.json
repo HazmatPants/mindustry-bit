@@ -1,7 +1,7 @@
 {
-    "name": "decompressor",
-    "localizedName": "Decompressor",
-    "description": "Decompresses large formats to smaller formats, like 1 byte to 8 bits.",
+    "name": "compressor",
+    "localizedName": "Compressor",
+    "description": "Compresses small formats to larger formats, like 8 bits to 1 byte.",
     "type": "multicraft.MultiCrafter",
     "buildCostMultiplier": 0.1,
     "category": "crafting",
@@ -16,37 +16,37 @@
     "recipes": [
         {
         "input": {
-            "items": ["bit-byte/1"]
+            "items": ["bit-bit/8"]
             },
         "output":{
-            "items": ["bit-bit/8"]
+            "items": ["bit-byte/1"]
             },
         "craftTime": 60
         },
         {
         "input": {
-            "items": ["bit-data-cube/1"]
-            },
-        "output":{
             "items": ["bit-byte/8"]
             },
+        "output":{
+            "items": ["bit-data-cube/1"]
+            },
         "craftTime": 120
         },
         {
         "input": {
-            "items": ["bit-corrupted-byte/1"]
-            },
-        "output":{
             "items": ["bit-corrupted-bit/8"]
             },
+        "output":{
+            "items": ["bit-corrupted-byte/1"]
+            },
         "craftTime": 120
         },
         {
         "input": {
-            "items": ["bit-corrupted-cube/1"]
+            "items": ["bit-corrupted-byte/8"]
             },
         "output":{
-            "items": ["bit-corrupted-byte/8"]
+            "items": ["bit-corrupted-cube/1"]
             },
         "craftTime": 180
         },
